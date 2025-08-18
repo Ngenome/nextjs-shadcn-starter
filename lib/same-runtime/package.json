@@ -1,0 +1,13 @@
+{
+  "name": "visual-editor-runtime",
+  "version": "1.0.0",
+  "description": "JSX runtime for source tracking in visual editor",
+  "main": "jsx-runtime.js",
+  "exports": {
+    "./jsx-runtime": "./jsx-runtime.js",
+    "./jsx-dev-runtime": "./jsx-dev-runtime.js"
+  },
+  "dependencies": {
+    "react": "*"
+  }
+}
